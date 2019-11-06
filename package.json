@@ -1,0 +1,51 @@
+{
+  "name": "syed",
+  "version": "1.0.0",
+  "description": "Get my Terminal Business Card",
+  "main": "src/index.js",
+  "bin": {
+    "syed": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Will Add Test Cases Soon...., Sit Tight.\"",
+    "build": "node .",
+    "dev": "npm run build && node ./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syed-Umair/business-card.git"
+  },
+  "keywords": [
+    "npx",
+    "card",
+    "businesscard",
+    "business",
+    "contact",
+    "syed",
+    "umair",
+    "card",
+    "developer",
+    "dev"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "bin/cli.js",
+    "bin/output"
+  ],
+  "author": "Syed Umair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Syed-Umair/business-card/issues"
+  },
+  "homepage": "https://github.com/Syed-Umair/business-card#readme",
+  "devDependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2",
+    "jest": "24.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Syed-Umair"
+  }
+}

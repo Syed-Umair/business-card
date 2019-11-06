@@ -1,2 +1,1 @@
-# business-card
-Terminal Business Card
+# Terminal Business Card

@@ -32,7 +32,7 @@
   },
   "files": [
     "bin/cli.js",
-    "bin/output"
+    "bin/syed"
   ],
   "author": "Syed Umair",
   "license": "MIT",

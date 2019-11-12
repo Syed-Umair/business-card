@@ -1,13 +1,13 @@
 {
   "name": "syed",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Get Syed's Terminal Business Card",
   "main": "src/index.js",
   "bin": {
     "syed": "./bin/cli.js"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Will Add Test Cases Soon...., Sit Tight.\"",
     "build": "node .",
     "dev": "npm run build && node ./bin/cli.js"
@@ -45,5 +45,8 @@
     "boxen": "^4.1.0",
     "chalk": "^2.4.2",
     "jest": "24.9.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }

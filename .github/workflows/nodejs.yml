@@ -3,7 +3,7 @@ name: Node CI
 on: [push]
 
 jobs:
-  
+
   build:
     runs-on: macOS-latest
     steps:
@@ -38,7 +38,7 @@ jobs:
 
   publish-npm:
     needs: [build, test]
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -51,7 +51,7 @@ jobs:
 
   publish-gpr:
     needs: [build, test]
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
